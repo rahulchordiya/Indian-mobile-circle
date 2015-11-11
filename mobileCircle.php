@@ -2611,7 +2611,18 @@ function mobileCircle(){
         array("8585","VODAFONE","DELHI"),
         array("8586","VODAFONE","DELHI"),
         array("8587","VODAFONE","DELHI"),
-        array("8685","VODAFONE","DELHI")
+        array("8685","VODAFONE","DELHI"),
+        array("8155","IDEA","GUJARAT"),
+        array("7046","IDEA","GUJARAT"),
+        array("7096","IDEA","GUJARAT"),
+        array("7026","IDEA","KARNATAKA"),
+        array("7036","IDEA","ANDHRA PRADESH"),
+        array("7066","VODAFONE","MAHARASHTRA"),
+        array("7076","VODAFONE","WEST BENGAL"),
+        array("7086","AIRTEL","ASSAM"),
+        array("7048","TATA DOCOMO","GUJARAT"),
+        array("7575","VODAFONE","GUJARAT")
+
     );
 //print_r($data);
     $response = new stdClass;
