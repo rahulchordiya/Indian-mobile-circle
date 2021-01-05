@@ -2722,7 +2722,8 @@ function mobileCircle(){
    //print_r($data);
     $response = new stdClass;
     foreach ($data as $key => $value) {
-        $response->$value[0]=$value[1]."-".$value[2];
+      $mobile_starting_no = $value[0];
+        $response->$mobile_starting_no=$value[1]."-".$value[2];
     }
     return $response;
 }
